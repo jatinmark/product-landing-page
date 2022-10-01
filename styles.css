@@ -1,0 +1,167 @@
+body{
+    background-color: #eee;
+    font-family: 'Lato', sans-serif;
+    
+
+}
+nav{
+    background-color: #eee;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+   
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+   padding: 5px 30px 0 30px;
+   align-items: center;
+}
+@media only screen and (min-width : 760px){
+    .features{
+        margin-top: 14px ;
+}
+}
+@media only screen and (max-width : 760px){
+ .nav{
+    display: block;
+ } 
+ 
+ .features{
+    margin-top: 0px ;
+    display: block;
+ }
+ .nav-link{
+    display: block;
+ }  
+ .logo{
+    text-align: center;
+ }
+}
+
+#header-img{
+    margin-top: 10px;
+    width: 300px;
+}
+.features{
+    display: flex;
+    justify-content: space-around;
+    flex: .5;
+    flex-wrap: wrap;
+    align-items: center;
+  
+ 
+}
+.email{
+    height: 100px;
+    margin-top: 90px;
+  text-align: center;
+}
+input{
+    height: 27px;
+    width: 250px;
+   
+}
+#submit{
+    height: 34px;
+    width: 130px;
+   background-color:  #f1c40f;
+   font-size: medium;
+   border: none;
+}
+button{
+    height: 34px;
+    width: 130px;
+   background-color:  #f1c40f;
+   font-size: medium;
+   border: none;
+
+}
+.fire{
+    float: left;
+    height: 86px;
+    width: 90px;
+    
+}
+.batery{
+    float: left;
+    height: 86px;
+    width: 90px;
+}
+.burn{
+    text-align: center;
+}
+.content{
+   
+    text-align: left;
+}
+p{
+    margin-top: 4px;
+}
+
+.tet{
+    margin-top: 20px;
+    padding-top: 3px;
+    margin-bottom: 0;
+   
+}
+.info{
+    margin-top: 90px;
+}
+.burn{
+   margin: 35px 0 35px 0 ;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+    gap: 40px;
+
+}
+.video{
+    display: flex;
+    justify-content: center;
+    margin-top: 75px;
+}
+iframe{
+    max-width: 600px;
+   
+}
+.card{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 70px;
+    gap: 30px;
+}
+.first{
+    border: .7px solid black;
+    text-align: center;
+    flex-direction: column;
+
+}
+h4{
+    margin: 0;
+    padding: 15px 82px;
+    background-color: #ddd;
+
+}
+.newbut{
+    margin: 20px;
+}
+.end{
+    display: flex;
+    justify-content: right;
+    background-color: #ddd;
+    margin: 50px 35px 0 35px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    padding: 10px 10px;
+}
+.copy{
+    text-align: right;
+    margin: 0 35px 10px 35px;
+   padding-bottom: 10px;
+    background-color: #ddd;
+}
